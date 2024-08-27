@@ -14,8 +14,7 @@ Welcome to the My Blog Application! This project is a modern, full-featured blog
 - [Folder Structure](#folder-structure)
 - [API Endpoints](#api-endpoints)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
