@@ -104,9 +104,6 @@ Make sure to replace `/api/blogs` with your actual API endpoints.
 
 Here are some screenshots of the application:
 
-### Home Page
-
-![Screenshot 2024-08-27 183722](https://github.com/user-attachments/assets/35063ef8-31e3-41b0-b275-13bb5b4e97bc)
 
 
 ### Blog Detail Page
