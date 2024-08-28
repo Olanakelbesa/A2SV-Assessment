@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/navigation"; // Import useRouter for navigation
@@ -80,14 +82,18 @@ const BlogCard: React.FC<BlogCardProps> = ({ blogs }) => {
 							</div>
 						</div>
 						<div className="py-2 flex gap-3">
-							{blog.skills.map((skill, index) => (
-								<button
-									key={index}
-									className="bg-[#F5F5F5] text-[#8E8E8E] rounded-full py-1 px-4"
-								>
-									{skill}
-								</button>
-							))}
+							{blog.skills.length > 0 ? (
+								blog.skills.map((skill, index) => (
+									<button
+										key={index}
+										className="bg-[#F5F5F5] text-[#8E8E8E] rounded-full py-1 px-4"
+									>
+										{skill}
+									</button>
+								))
+							) : (
+								<p className="text-gray-400 text-sm">No skills listed</p>
+							)}
 						</div>
 					</div>
 				</div>

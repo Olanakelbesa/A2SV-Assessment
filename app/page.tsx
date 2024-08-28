@@ -1,11 +1,10 @@
-import Image from "next/image";
 import HomePage from "./homePage/HomePage";
-import Footer from "@/components/Footer";
+import RootLayout from "./layout";
 
-export default function Home() {
+export default function Page() {
 	return (
-		<div>
+		<RootLayout>
 			<HomePage />
-		</div>
+		</RootLayout>
 	);
 }

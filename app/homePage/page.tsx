@@ -4,7 +4,8 @@ import HomePage from "./HomePage";
 const page = () => {
 	return (
 		<div>
-			<HomePage />
+			{" "}
+			<HomePage />{" "}
 		</div>
 	);
 };

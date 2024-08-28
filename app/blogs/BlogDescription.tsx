@@ -17,7 +17,7 @@ const BlogDescription = () => {
 			if (id) {
 				try {
 					const response = await fetch(
-						`https://a2sv-backend.onrender.com/api/blogs/${id}`
+						`http://blogapp.tryasp.net/api/Blog/${id}`
 					);
 					if (!response.ok) {
 						throw new Error("Network response was not ok");
